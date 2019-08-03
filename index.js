@@ -11,7 +11,7 @@ return  "There is nobody waiting to be served!"
 }
 else{
 var firstname = katzDeliLine[0]
-return "Currently serving "+firstname+".";
 katzDeliLine.splice(0,1)
+return "Currently serving "+firstname+".";
 }
 }
